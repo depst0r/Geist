@@ -7,3 +7,8 @@
 @use '/src/sass/base/basic.scss';
 @use '/src/sass/base/mixins.scss';
 @use '/src/sass/base/variables.scss';
+
+//!BLOCKS
+
+@use '/src/sass/blocks/header.scss';
+@use '/src/sass/blocks/author.scss';

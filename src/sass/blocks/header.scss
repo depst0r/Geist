@@ -1,0 +1,10 @@
+.header {
+    position: relative;
+
+    .gradient {
+        &__top {
+            position: absolute;
+            width: 100%;
+        }
+    }
+}
