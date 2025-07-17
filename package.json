@@ -1,0 +1,16 @@
+{
+  "name": "geist",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@sergey_panteleenko",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.89.2",
+    "vite": "^7.0.4"
+  }
+}

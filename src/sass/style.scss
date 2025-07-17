@@ -1,0 +1,9 @@
+//! UI
+@use '/src/sass/libs/modern-normalize.min.css';
+@use '/src/sass/libs/inter.css';
+
+//!BASIC
+
+@use '/src/sass/base/basic.scss';
+@use '/src/sass/base/mixins.scss';
+@use '/src/sass/base/variables.scss';
