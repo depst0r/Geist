@@ -2,9 +2,14 @@
 
 @mixin title {
     font-weight: 800;
-    text-transform: uppercase;
     font-style: normal;
     line-height: normal;
-    text-align: center;
     color: $basic-white;
+}
+
+@mixin text {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    color: $basic-dark-gray;
 }

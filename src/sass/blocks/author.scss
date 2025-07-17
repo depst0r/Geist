@@ -1,1 +1,32 @@
-.author {}
+@use '/src/sass/base/variables.scss'as *;
+
+.author {
+    padding-top: 32px;
+
+    &__logo {
+        text-align: center;
+
+        &-link {
+            display: block;
+        }
+    }
+
+    &__descr {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    &__title {
+        margin-top: 307px;
+
+        &-name {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        &-gray {
+            color: $basic-dark-gray;
+        }
+    }
+}

@@ -12,6 +12,16 @@
     font-size: 32px
 }
 
+.description {
+    @include text;
+    font-weight: 500;
+    line-height: 133%;
+}
+
+.main-text {
+    @include text;
+}
+
 @media screen and (min-width: 768px) {
     .title-h1 {
         font-size: 65px;
@@ -19,6 +29,11 @@
 
     .title-h2 {
         font-size: 48px;
+    }
+
+    .description {
+        font-size: 24px;
+        line-height: 150%;
     }
 }
 
