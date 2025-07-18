@@ -22,11 +22,16 @@
         &-name {
             display: flex;
             flex-direction: row;
+            align-items: center;
             gap: 10px;
         }
 
         &-gray {
             color: $basic-dark-gray;
         }
+    }
+
+    &__buttons {
+        gap: 17px;
     }
 }

@@ -1,0 +1,40 @@
+@use '/src/sass/base/variables.scss'as *;
+@use '/src/sass/base/mixins.scss'as *;
+
+.btn-primery-dark {
+    @include button;
+    color: $basic-white;
+    box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.15),
+        inset 0 2px 4px 0 rgba(255, 255, 255, 0.08),
+        inset 0 1px 2px 0 rgba(255, 255, 255, 0.02);
+    background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
+}
+
+.btn-primery-light {
+    @include button;
+    color: $basic-white;
+    background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
+}
+
+.btn-secondary-dark {
+    @include button;
+    color: $basic-dark-gray;
+    background: $basic-onyx;
+}
+
+.btn-secondary-light {
+    @include button;
+    color: $basic-onyx;
+    background: $light-faint-white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .btn-primery-light,
+    .btn-secondary-light,
+    .btn-primery-dark,
+    .btn-secondary-dark {
+        width: 196px;
+        height: 60px;
+    }
+}
