@@ -1,6 +1,7 @@
 @use '/src/sass/base/variables.scss'as *;
 
-// switcher
+// Swither
+//--bg
 
 .light-bg {
     background-color: $light-main-bg;
@@ -10,11 +11,17 @@
     background-color: $dark-main-bg;
 }
 
-//active
+//Active
+//--nav
 
 .active {
     &-dark {
         border-radius: 12px;
         background: $dark-white-100;
+    }
+
+    &-light {
+        border-radius: 12px;
+        background: $dark-black---500;
     }
 }
