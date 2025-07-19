@@ -1,7 +1,7 @@
 @use '/src/sass/base/variables.scss'as *;
 
 // Swither
-//--bg
+//--bg-main
 
 .light-bg {
     background-color: $light-main-bg;
@@ -9,6 +9,18 @@
 
 .dark-bg {
     background-color: $dark-main-bg;
+}
+
+.nav {
+    &-dark {
+        background: rgba(24, 24, 29, 0.6);
+        border: 1px solid rgba(39, 38, 44, 0.38);
+    }
+
+    &-light {
+        background: rgba(24, 24, 29, 0.3);
+        border: 1px solid rgba(39, 38, 44, 0.3);
+    }
 }
 
 //Active

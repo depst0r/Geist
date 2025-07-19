@@ -1,3 +1,5 @@
+@use '/src/sass/base/variables.scss'as *;
+
 .header {
     position: relative;
 
@@ -11,12 +13,10 @@
     .nav {
         &__mobile {
             position: fixed;
-            bottom: 0;
+            bottom: 20px;
             z-index: 99999;
-            border: 1px solid rgba(39, 38, 44, 0.38);
             border-radius: 12px;
             backdrop-filter: blur(4px);
-            background: rgba(24, 24, 29, 0.6);
             left: 50%;
             width: 100%;
             transform: translateX(-50%);
@@ -34,6 +34,45 @@
             align-items: center;
             width: 54px;
             height: 40px;
+        }
+
+        &__dropdown-menu {
+            position: fixed;
+            width: 100%;
+            left: 0;
+            height: 65vh;
+            top: 20%;
+
+            .dropdown {
+                &-items {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    width: 100%;
+                    padding: 0 16px;
+                    padding-top: 22px;
+                }
+
+                &-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 56px;
+                    width: 100%;
+                    padding: 0 16px;
+                    background-color: $dark-white-100;
+                    border-radius: 12px;
+
+                    a {
+                        color: $basic-white;
+                        text-decoration: none;
+                    }
+                }
+
+                &__menu-wrapper {
+                    backdrop-filter: blur(4px);
+                }
+            }
         }
     }
 }
