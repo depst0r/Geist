@@ -1,9 +1,9 @@
 import "/src/sass/style.scss";
 import 'purecss';
 
-const nav_items = document.querySelectorAll('.nav__item');
-const nav_svg = document.querySelectorAll('.nav__item-svg');
+const nav_items = document.querySelectorAll('.nav__item')
 
+const dropdown_btn = document.querySelector('#dropdown-menu-btn')
 
 const mobileNavigation = items => {
     items.forEach(item => {
@@ -23,4 +23,12 @@ const mobileNavigation = items => {
     })
 }
 
-mobileNavigation(nav_items);
+const dropdownWindowMobile = id => {
+    const dropWindow = document.querySelector('.nav__dropdown-menu')
+    id.addEventListener('click', () => {
+        dropWindow.classList.toggle('nav__dropdown-menu-active')
+    })
+}
+
+mobileNavigation(nav_items)
+dropdownWindowMobile(dropdown_btn)

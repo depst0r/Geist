@@ -37,3 +37,11 @@
         background: $dark-black---500;
     }
 }
+
+//--dropdown-mobile 
+
+.nav__dropdown-menu {
+    &-active {
+        opacity: 1 !important;
+    }
+}
