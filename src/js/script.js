@@ -18,7 +18,7 @@ const mobileNavigation = items => {
             item.classList.add('active-dark')
 
             const activePaths = item.querySelectorAll('path')
-            activePaths.forEach(p => p.setAttribute('fill', 'white'))
+            activePaths.forEach(p => p.setAttribute('fill', '#fff'))
         })
     })
 }
