@@ -1,0 +1,20 @@
+@use '/src/sass/base/variables.scss'as *;
+
+// switcher
+
+.light-bg {
+    background-color: $light-main-bg;
+}
+
+.dark-bg {
+    background-color: $dark-main-bg;
+}
+
+//active
+
+.active {
+    &-dark {
+        border-radius: 12px;
+        background: $dark-white-100;
+    }
+}

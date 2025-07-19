@@ -32,6 +32,17 @@
     }
 
     &__buttons {
+        margin-top: 56px;
         gap: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .author {
+        &__title-name {
+            flex-direction: column;
+            text-align: center;
+            gap: 0;
+        }
     }
 }

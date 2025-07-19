@@ -46,14 +46,7 @@ body {
     margin: 0 auto;
 }
 
-.container {
+.container,
+.nav__mobile {
     padding: 0 16px;
-}
-
-.light-bg {
-    background-color: $light-main-bg;
-}
-
-.dark-bg {
-    background-color: $dark-main-bg;
 }
