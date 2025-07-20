@@ -22,6 +22,10 @@
     @include text;
 }
 
+.links-nav {
+    @include link;
+}
+
 @media screen and (min-width: 768px) {
     .title-h1 {
         font-size: 65px;

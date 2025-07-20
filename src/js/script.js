@@ -30,5 +30,6 @@ const dropdownWindowMobile = id => {
     })
 }
 
+
 mobileNavigation(nav_items)
 dropdownWindowMobile(dropdown_btn)

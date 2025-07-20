@@ -11,6 +11,40 @@
     }
 
     .nav {
+        &__lg {
+            display: none;
+            backdrop-filter: blur(4px);
+            background: rgba(24, 24, 29, 0.3);
+            padding: 17px 16px;
+
+            &-drop {
+                display: none;
+            }
+
+            &-links {
+                .link {
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                display: flex;
+                gap: 20px;
+            }
+
+            &-col {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                gap: 20px;
+            }
+
+            &-logo {
+                display: flex;
+                align-items: center;
+            }
+        }
+
         &__mobile {
             position: fixed;
             bottom: 20px;
@@ -73,6 +107,35 @@
 
                 &__menu-wrapper {
                     backdrop-filter: blur(4px);
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header {
+        .nav {
+            &__mobile {
+                display: none;
+            }
+
+            &__lg {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        .nav {
+            &__lg {
+
+                &-links,
+                &-logo {
+                    gap: 40px;
                 }
             }
         }
