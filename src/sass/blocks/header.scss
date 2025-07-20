@@ -21,6 +21,11 @@
                 display: none;
             }
 
+            &-social {
+                display: flex;
+                gap: 24px;
+            }
+
             &-links {
                 .link {
                     a {
@@ -42,6 +47,11 @@
             &-logo {
                 display: flex;
                 align-items: center;
+            }
+
+            &-wrap {
+                display: flex;
+                justify-content: space-between;
             }
         }
 
