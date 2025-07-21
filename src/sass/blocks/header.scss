@@ -3,6 +3,10 @@
 .header {
     position: relative;
 
+    .container {
+        padding-top: 32px;
+    }
+
     .gradient {
         &__top {
             position: absolute;
@@ -16,17 +20,39 @@
             backdrop-filter: blur(4px);
             background: rgba(24, 24, 29, 0.3);
             padding: 17px 16px;
+            border-radius: 12px;
 
             &-drop {
-                display: none;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                bottom: -700%;
+                left: 64%;
+                border-radius: 0 0 12px 12px;
+                padding: 16px 24px;
+                width: 133px;
+                height: 121px;
+                backdrop-filter: blur(12px);
+                box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.11),
+                    inset 0 8px 5px 0 rgba(0, 0, 0, 0.07);
+                background: rgba(24, 24, 24, 0.6);
+                opacity: 0;
+                transition: all 0.5s ease;
             }
 
             &-social {
                 display: flex;
                 gap: 24px;
+
+                svg {
+                    cursor: pointer;
+                }
             }
 
             &-links {
+                position: relative;
+
                 .link {
                     a {
                         text-decoration: none;
@@ -34,7 +60,26 @@
                 }
 
                 display: flex;
+                align-items: center;
                 gap: 20px;
+            }
+
+            &-switcher {
+                display: flex;
+                cursor: pointer;
+            }
+
+            .links {
+                &-nav {
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                &-arrow {
+                    display: flex;
+                }
             }
 
             &-col {
@@ -47,6 +92,7 @@
             &-logo {
                 display: flex;
                 align-items: center;
+                cursor: pointer;
             }
 
             &-wrap {
@@ -134,6 +180,15 @@
             &__lg {
                 display: block;
             }
+
+            &__dropdown-menu {
+                display: none;
+            }
+        }
+
+        .gradient__top {
+            height: 300px;
+            backdrop-filter: blur(4px);
         }
     }
 }
@@ -142,6 +197,9 @@
     .header {
         .nav {
             &__lg {
+                &-drop {
+                    left: 71%;
+                }
 
                 &-links,
                 &-logo {

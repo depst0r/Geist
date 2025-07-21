@@ -30,6 +30,14 @@ const dropdownWindowMobile = id => {
     })
 }
 
+const dropdownWindowLg = id => {
+    const dropWindow = document.querySelector('.nav__lg-drop')
+    id.addEventListener('click', () => {
+        dropWindow.classList.toggle('nav__dropdown-menu-active')
+    })
+}
+
+dropdownWindowLg(dropDownWindow_Lg)
 
 mobileNavigation(nav_items)
 dropdownWindowMobile(dropdown_btn)

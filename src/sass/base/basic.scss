@@ -46,6 +46,7 @@ body {
     margin: 0 auto;
 }
 
+
 .container,
 .nav__mobile {
     padding: 0 16px;
@@ -69,14 +70,8 @@ body {
 
 @media screen and (min-width: 1440px) {
     .container {
-        padding: 0 100px;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .container {
-        max-width: 1920px;
-        padding: 0 300px;
+        padding: 0;
+        max-width: 1024px;
         margin: 0 auto;
     }
 }
