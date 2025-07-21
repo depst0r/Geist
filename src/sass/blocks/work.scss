@@ -1,0 +1,13 @@
+@use '/src/sass/base/variables.scss'as *;
+
+.work {
+    padding-top: 137px;
+
+    &__card {
+        border: 1px solid $dark-card-border;
+        border-radius: 32px;
+        padding: 32px 24px;
+        backdrop-filter: blur(21px);
+        background: $dark-black---500;
+    }
+}
