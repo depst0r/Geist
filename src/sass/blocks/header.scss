@@ -23,27 +23,38 @@
             border-radius: 12px;
 
             &-drop {
+                display: none;
                 position: absolute;
-                display: flex;
                 flex-direction: column;
                 gap: 16px;
                 bottom: -700%;
                 left: 64%;
                 border-radius: 0 0 12px 12px;
                 padding: 16px 24px;
-                width: 133px;
-                height: 121px;
                 backdrop-filter: blur(12px);
                 box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.11),
                     inset 0 8px 5px 0 rgba(0, 0, 0, 0.07);
                 background: rgba(24, 24, 24, 0.6);
-                opacity: 0;
+                width: 133px;
+                height: 121px;
                 transition: all 0.5s ease;
+
+                &-active {
+                    display: flex;
+                }
             }
 
             &-social {
                 display: flex;
                 gap: 24px;
+                color: $basic-light-gray;
+
+                svg {
+                    &:hover {
+                        color: $basic-white;
+                    }
+                }
+
 
                 svg {
                     cursor: pointer;
@@ -67,6 +78,11 @@
             &-switcher {
                 display: flex;
                 cursor: pointer;
+                color: $basic-light-gray;
+
+                &:hover {
+                    color: $basic-white;
+                }
             }
 
             .links {

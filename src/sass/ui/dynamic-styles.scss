@@ -45,3 +45,13 @@
         opacity: 1 !important;
     }
 }
+
+//HOVER
+
+//--hover-menu
+
+.hover-menu {
+    &:hover {
+        color: $basic-white;
+    }
+}
