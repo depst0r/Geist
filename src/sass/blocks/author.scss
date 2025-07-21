@@ -49,8 +49,26 @@
 
 @media screen and (min-width: 768px) {
     .author {
+        padding-top: 170px;
+
         &__logo {
             display: none;
+        }
+
+        &__title {
+            margin-top: 0;
+
+            &-greeting {
+                display: none;
+            }
+        }
+
+        &__descr {
+            margin-top: 10px;
+        }
+
+        &__buttons {
+            margin-top: 40px;
         }
     }
 }
