@@ -3,6 +3,11 @@
 .work {
     padding-top: 137px;
 
+    &__wrapper {
+        gap: 36px;
+        margin-top: 16px;
+    }
+
     &__card {
         border: 1px solid $dark-card-border;
         border-radius: 32px;
