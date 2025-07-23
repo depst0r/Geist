@@ -5,15 +5,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depst0r/Geist.git"
+  },
   "author": "@sergey_panteleenko",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depst0r/Geist/issues"
+  },
+  "homepage": "https://github.com/depst0r/Geist#readme",
   "description": "",
   "devDependencies": {
     "postcss-pxtorem": "^6.1.0",
     "sass": "^1.89.2",
-    "vite": "^7.0.4"
+    "vite": "^7.0.5",
+    "vite-plugin-imagemin": "^0.6.1"
   },
   "dependencies": {
+    "just-validate": "^4.3.0",
     "purecss": "^3.0.0"
   }
 }
