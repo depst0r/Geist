@@ -1,1 +1,18 @@
-.knowledge {}
+@use '/src/sass/base/variables.scss'as *;
+
+.knowledge {
+    &__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border: 1px solid $dark-card-border;
+        border-radius: 32px;
+        background: #151515;
+    }
+}
