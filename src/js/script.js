@@ -5,6 +5,8 @@ const nav_items = document.querySelectorAll('.nav__item')
 
 const dropdown_btn = document.querySelector('#dropdown-menu-btn')
 
+
+
 const mobileNavigation = items => {
     items.forEach(item => {
         item.addEventListener('click', () => {
@@ -36,6 +38,13 @@ const dropdownWindowLg = id => {
         dropWindow.classList.toggle('nav__lg-drop-active')
     })
 }
+
+const paddingCardImg = () => {
+    const cards_img = document.querySelectorAll('.work__card-img')
+    Array.from(cards_img).slice(1).forEach(elem => elem.style.padding = '60px 0 60px 0')
+}
+
+paddingCardImg()
 
 dropdownWindowLg(dropDownWindow_Lg)
 
