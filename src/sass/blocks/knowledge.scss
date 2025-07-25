@@ -4,6 +4,8 @@
     &__cards {
         display: flex;
         flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
     }
 
     &__card {
@@ -14,18 +16,24 @@
         border: 1px solid $dark-card-border;
         border-radius: 32px;
         background: #151515;
-        // height: 356px;
+        max-width: 504px;
+        max-height: 504px;
         padding-top: 32px;
         gap: 8px;
+        overflow: hidden;
 
-        &-img {
-            &:nth-child(1) {
-                width: 158px;
-            }
+        picture {
+            object-fit: cover;
+        }
+    }
+}
 
-            &:nth-child(4) {
-                width: 215px;
-            }
+@media screen and (min-width: 768px) {
+    .knowledge {
+        &__cards {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(404px, 504px));
+            grid-template-rows: repeat(2, minmax(404px, 504px));
         }
     }
 }
