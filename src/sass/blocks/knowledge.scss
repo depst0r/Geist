@@ -32,8 +32,8 @@
     .knowledge {
         &__cards {
             display: grid;
-            grid-template-columns: repeat(2, minmax(404px, 504px));
-            grid-template-rows: repeat(2, minmax(404px, 504px));
+            grid-template-columns: repeat(2, minmax(304px, 504px));
+            grid-template-rows: repeat(2, minmax(304px, 504px));
         }
     }
 }
