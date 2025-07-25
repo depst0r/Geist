@@ -7,6 +7,12 @@
     color: $basic-white;
 }
 
+@mixin title-ui {
+    font-weight: 700;
+    font-size: 16px;
+    color: $basic-white;
+}
+
 @mixin text {
     font-weight: 400;
     font-size: 15px;

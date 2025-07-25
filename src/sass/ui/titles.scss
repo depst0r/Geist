@@ -22,6 +22,10 @@
     font-size: 20px;
 }
 
+.title-h6 {
+    @include title-ui;
+}
+
 .description {
     @include text;
     font-weight: 500;
