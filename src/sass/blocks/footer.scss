@@ -81,6 +81,14 @@
 
         }
 
+        &__column {
+            &-list {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+            }
+        }
+
         .title-h6 {
             margin: 0;
         }
