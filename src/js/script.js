@@ -5,6 +5,21 @@ const nav_items = document.querySelectorAll('.nav__item')
 
 const dropdown_btn = document.querySelector('#dropdown-menu-btn')
 
+const switchTheme = document.querySelector('.nav__lg-switcher')
+
+const switcher = btn => {
+    const bodyTheme = document.body
+    btn.addEventListener('click', () => {
+        if (bodyTheme.classList.contains('dark-bg')) {
+            bodyTheme.classList.remove('dark-bg')
+            bodyTheme.classList.add('light-bg')
+        } else {
+            bodyTheme.classList.remove('light-bg')
+            bodyTheme.classList.add('dark-bg')
+        }
+    })
+}
+
 
 
 const mobileNavigation = items => {
@@ -43,6 +58,8 @@ const paddingCardImg = () => {
     const cards_img = document.querySelectorAll('.work__card-img')
     Array.from(cards_img).slice(1).forEach(elem => elem.style.padding = '60px 0 60px 0')
 }
+
+switcher(switchTheme)
 
 paddingCardImg()
 

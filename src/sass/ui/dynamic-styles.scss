@@ -5,10 +5,12 @@
 
 .light-bg {
     background-color: $light-main-bg;
+    transition: background-color 0.3s;
 }
 
 .dark-bg {
     background-color: $dark-main-bg;
+    transition: background-color 0.3s;
 }
 
 .nav {
