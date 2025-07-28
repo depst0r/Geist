@@ -16,7 +16,7 @@
 
     .author {
         &-bg {
-            color: rgb(251, 251, 251);
+            color: #808080;
         }
 
         &__title-gray {
@@ -58,6 +58,16 @@
         &-social {
             color: $basic-onyx !important;
         }
+
+        &-drop {
+            background: $dark-white---250 !important;
+            border: 1px solid --light-card-border !important;
+        }
+    }
+
+    .knowledge__card {
+        border: 1px solid $light-card-border;
+        background: $light-card-bg;
     }
 
     .links-nav {
@@ -67,6 +77,12 @@
     .work__card {
         border: 1px solid $light-card-border;
         background: $light-card-bg;
+    }
+
+    .hover-menu {
+        &:hover {
+            color: $dark-black---500;
+        }
     }
 
     transition: all 0.3s;
