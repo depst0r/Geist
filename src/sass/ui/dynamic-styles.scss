@@ -14,9 +14,16 @@
         color: $basic-onyx;
     }
 
-    .author__title-gray {
-        color: #808080;
+    .author {
+        &-bg {
+            color: rgb(251, 251, 251);
+        }
+
+        &__title-gray {
+            color: #808080;
+        }
     }
+
 
     .nav__lg {
         border: 1px solid $dark-white---250;
