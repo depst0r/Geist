@@ -37,8 +37,12 @@
                 background: $light-faint-white;
             }
         }
+
     }
 
+    .links-card {
+        color: $basic-onyx !important;
+    }
 
     .nav__lg {
         border: 1px solid $dark-white---250;
@@ -58,6 +62,11 @@
 
     .links-nav {
         color: $basic-onyx;
+    }
+
+    .work__card {
+        border: 1px solid $light-card-border;
+        background: $light-card-bg;
     }
 
     transition: all 0.3s;
