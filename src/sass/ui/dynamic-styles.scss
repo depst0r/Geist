@@ -5,7 +5,40 @@
 
 .light-bg {
     background-color: $light-main-bg;
-    transition: background-color 0.3s;
+
+    .title-h1,
+    .title-h2,
+    .title-h3,
+    .title-h4,
+    .title-h5 {
+        color: $basic-onyx;
+    }
+
+    .author__title-gray {
+        color: #808080;
+    }
+
+    .nav__lg {
+        border: 1px solid $dark-white---250;
+        border-radius: 12px;
+        backdrop-filter: blur(4px);
+        background: $dark-white---250;
+
+
+        &-logo {
+            color: $basic-onyx !important;
+        }
+
+        &-social {
+            color: $basic-onyx !important;
+        }
+    }
+
+    .links-nav {
+        color: $basic-onyx;
+    }
+
+    transition: all 0.3s;
 }
 
 .dark-bg {
