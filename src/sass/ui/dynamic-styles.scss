@@ -22,6 +22,21 @@
         &__title-gray {
             color: #808080;
         }
+
+        &__logo-link {
+            color: $basic-dark-gray;
+        }
+
+        .btn {
+            &-primery {
+                background: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
+            }
+
+            &-secondary {
+                color: $basic-onyx;
+                background: $light-faint-white;
+            }
+        }
     }
 
 
