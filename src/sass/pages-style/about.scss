@@ -21,4 +21,18 @@
         }
     }
 
+    &__autograph {
+        color: $basic-white;
+    }
+
+    .btn-primery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        svg {
+            transform: translateY(-7%);
+        }
+    }
 }
