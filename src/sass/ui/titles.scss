@@ -32,6 +32,10 @@
     line-height: 133%;
 }
 
+.subtitle {
+    @include subtitle;
+}
+
 .main-text {
     @include text;
 }
@@ -62,6 +66,11 @@
     .description {
         font-size: 24px;
         line-height: 150%;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        letter-spacing: -0.02em;
     }
 }
 
