@@ -22,3 +22,11 @@
 @use '/src/sass/blocks/knowledge.scss';
 @use '/src/sass/blocks/touch.scss';
 @use '/src/sass/blocks/footer.scss';
+
+//!PAGES
+
+@use '/src/sass/pages-style/about.scss';
+
+//!SHARED
+
+@use '/src/sass/shared/logo-mobile.scss';
