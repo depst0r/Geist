@@ -1,0 +1,45 @@
+@use '/src/sass/base/variables.scss'as *;
+
+.project {
+    padding-top: 144px;
+
+    .subtitle {
+        padding-top: 8px;
+    }
+
+    .btn-primery {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3125rem;
+
+        svg {
+            transform: translateY(-7%);
+        }
+    }
+
+    .work {
+        &__card {
+            &:last-child {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+
+                .work__card-icon {
+                    color: $basic-light-gray;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        .btn-primery {
+            display: flex;
+        }
+    }
+}
