@@ -65,12 +65,50 @@
 
 @media screen and (min-width: 768px) {
     .about {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-auto-rows: auto;
+            grid-auto-columns: auto;
+        }
+
+        &__img {
+            grid-area: 1 / 1;
+            grid-column: 2;
+            justify-self: right;
+        }
+
+        &__btn {
+            grid-area: 1 / 1;
+            display: flex;
+            align-items: center;
+            position: relative;
+            grid-column: 2;
+        }
+
+        &__text {
+            margin: 0;
+            grid-column: 1;
+        }
+
         #autograph-sm {
             display: none;
         }
 
         #autograph-lg {
             display: inline;
+        }
+
+        .main-text {
+            font-size: 18px;
+        }
+
+        .btn-primery {
+            margin: 0;
+            position: absolute;
+            left: 48%;
+            top: 60%;
         }
     }
 }
