@@ -11,6 +11,7 @@ export default defineConfig({
 			input: {
 				main: resolve(__dirname, "index.html"),
 				about: '/pages/about.html',
+				project: '/pages/project.html',
 			},
 		},
 	},
