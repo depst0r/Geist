@@ -12,6 +12,7 @@ export default defineConfig({
 				main: resolve(__dirname, "index.html"),
 				about: '/pages/about.html',
 				project: '/pages/project.html',
+				notebook: '/pages/notebook.html',
 			},
 		},
 	},
