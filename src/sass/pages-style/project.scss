@@ -27,11 +27,21 @@
                 justify-content: center;
                 text-align: center;
                 align-items: center;
+                border: 1px dashed $dark-card-border;
+                border-radius: 32px;
 
                 .work__card-icon {
                     color: $basic-light-gray;
                 }
+
+                .work__card-column {
+                    align-items: center;
+                }
             }
+        }
+
+        &__btn {
+            margin-top: 85px;
         }
     }
 }
