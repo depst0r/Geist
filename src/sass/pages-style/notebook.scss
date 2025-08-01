@@ -1,0 +1,51 @@
+@use '/src/sass/base/variables.scss'as*;
+
+.notebook {
+    padding-top: 144px;
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        &-img {
+            position: relative;
+            border: 1px solid $dark-card-border;
+            border-radius: 22px;
+            background: #151515;
+
+            img {
+                border-radius: 22px;
+            }
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            color: $basic-dark-gray;
+        }
+
+        &-text {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .img {
+        &__title {
+            font-weight: 600;
+            font-size: 20px;
+            color: $basic-white;
+        }
+
+        &__text {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            position: absolute;
+            top: 70%;
+        }
+    }
+
+}
