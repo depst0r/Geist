@@ -55,5 +55,24 @@
         &__column-img {
             display: none;
         }
+
+        &__columns-lg {
+            position: relative;
+
+            img {
+                border: 1px solid $dark-card-border;
+                border-radius: 22px;
+            }
+        }
+
+        .img__text-lg {
+            position: absolute;
+            padding: 24px;
+            bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
     }
 }
