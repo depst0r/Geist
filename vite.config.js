@@ -13,6 +13,7 @@ export default defineConfig({
 				about: '/pages/about.html',
 				project: '/pages/project.html',
 				notebook: '/pages/notebook.html',
+				stack: '/pages/tech-stack.html',
 			},
 		},
 	},
