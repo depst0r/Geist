@@ -1,1 +1,68 @@
-.tech-stack {}
+@use '/src/sass/base/variables.scss'as *;
+
+.tech-stack {
+    &__cards {
+
+
+        .cards {
+            &__title {
+                font-weight: 700;
+                font-size: 32px;
+                color: $basic-dark-gray;
+            }
+
+            &__items {
+                padding-top: 30px;
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+                gap: 16px;
+
+                .card__item {
+                    display: flex;
+                    gap: 15px;
+                    border: 1px solid $dark-card-border;
+                    border-radius: 16px;
+                    padding: 11px;
+                    background: #151515;
+
+                    &-name {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: $basic-white;
+                    }
+
+                    &-btn {
+                        border: 1px solid #272525;
+                        border-radius: 26px;
+                        padding: 6px 12px;
+                        background: $basic-onyx;
+                        font-weight: 400;
+                        font-size: 11px;
+                        letter-spacing: 0.01em;
+                        color: $basic-dark-gray;
+                    }
+
+                    &-elements {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tech-stack {
+        &__cards {
+            &__title {
+                font-size: 48px;
+            }
+        }
+    }
+}
