@@ -14,6 +14,7 @@ export default defineConfig({
 				project: '/pages/project.html',
 				notebook: '/pages/notebook.html',
 				stack: '/pages/tech-stack.html',
+				books: '/pages/bookshelf.html',
 			},
 		},
 	},
