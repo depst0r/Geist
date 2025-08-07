@@ -16,6 +16,12 @@
         color: $basic-onyx;
     }
 
+    .card__item-btn {
+        color: $basic-dark-gray !important;
+        background: $dark-white---700 !important;
+        border: 1px solid $dark-white---700 !important;
+    }
+
     .author {
         &-bg {
             color: #808080;
@@ -72,8 +78,9 @@
         background: $light-card-bg;
     }
 
-    .links-nav {
-        color: $basic-onyx;
+    .links-nav,
+    .card__item-name {
+        color: $basic-onyx !important;
     }
 
     .work__card {
@@ -108,6 +115,11 @@
 
     .cards__title {
         color: $basic-light-gray;
+    }
+
+    .card__item {
+        border: 1px solid $light-card-border !important;
+        background: $light-faint-white !important;
     }
 
     transition: all 0.3s;
