@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
-<body>
+<body class="dark-bg">
     <header class="header">
         <img src="/src/img/bg/Type=Header Gradient.png" alt="gradient" class="gradient__top">
         <div class="container">
@@ -210,9 +210,35 @@
             </svg>
         </a>
     </div>
-    <main class="booksshelf">
+    <main class="bookshelf">
         <div class="container">
             <h1 class="title-h1">Bookshelf</h1>
+            <span class="subtitle">Books and pieces of wisdom I’ve enjoyed reading.</span>
+            <div class="bookshelf__wrapper">
+                <div class="bookshelf__books">
+                    <div class="bookshelf__book">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="/src/img/books/sm/Book2.png" sizes="100vw">
+                            <source media="(min-width: 320px)" srcset="/src/img/books/lg/Book2.png" sizes="100vw">
+                            <img src="/src/img/books/lg/Book2.png" alt="my project">
+                        </picture>
+                    </div>
+                    <div class="bookshelf__book">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="/src/img/books/sm/Book3.png" sizes="100vw">
+                            <source media="(min-width: 320px)" srcset="/src/img/books/lg/Book3.png" sizes="100vw">
+                            <img src="/src/img/books/lg/Book3.png" alt="my project">
+                        </picture>
+                    </div>
+                    <div class="bookshelf__book">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="/src/img/books/sm/Frame 2065.png" sizes="100vw">
+                            <source media="(min-width: 320px)" srcset="/src/img/books/lg/Frame 2065.png" sizes="100vw">
+                            <img src="/src/img/books/lg/Frame 2065.png" alt="my project">
+                        </picture>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
