@@ -1,1 +1,5 @@
 @use '/src/sass/base/variables.scss'as *;
+
+.bookshelf {
+    &__book {}
+}
