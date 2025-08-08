@@ -1,5 +1,19 @@
 @use '/src/sass/base/variables.scss'as *;
 
 .bookshelf {
+    &__books {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        row-gap: 25px;
+        align-items: end;
+        margin-top: 101px;
+    }
+
     &__book {}
+
+    .title-h1 {
+        margin: 187px 0 0;
+    }
 }
