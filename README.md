@@ -6,13 +6,29 @@ I'm a frontend developer...
 ## 🛠 Tehnologies used in the project
 Javascript, HTML, SCSS, Vite.
 
-## Installation
 
-Install my-project with npm
+## Run Locally
+
+Clone the project
+
+```bash
+  https://github.com/depst0r/Geist.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
 
 ```bash
   npm install
 ```
+
+Start the server
+
 ```bash
   npx vite
 ```
