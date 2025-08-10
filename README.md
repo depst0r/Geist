@@ -1,7 +1,7 @@
 ## 🚀 About Me
 I'm a frontend developer...
 
-## 🛠 Skills
+## 🛠 Tehnologies used in the project
 Javascript, HTML, SCSS, Vite.
 
 ## Installation
