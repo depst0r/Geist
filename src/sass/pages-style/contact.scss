@@ -1,7 +1,20 @@
 @use '/src/sass/base/variables.scss'as *;
 
 .contacts {
+    &__form {
+
+        border: 1px solid $dark-card-border;
+        border-radius: 12px;
+        padding: 24px 16px;
+        width: 100%;
+        box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.2);
+        background: $basic-onyx;
+    }
+
     .form {
+        display: flex;
+        flex-direction: column;
+
         &__label {
 
             &-email,
@@ -23,12 +36,32 @@
                 font-weight: 500;
                 font-size: 16px;
                 color: $basic-white;
+                width: 100%;
             }
 
             &-btn {
                 display: flex;
                 flex-direction: row;
                 gap: 8px;
+            }
+        }
+
+        &__main {
+            &-text {
+                #textarea {
+                    border-radius: 12px;
+                    padding: 24px;
+                    height: 335px;
+                    width: 100%;
+                    box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.2);
+                    background: $dark-main-bg;
+                }
+            }
+        }
+
+        &__footer {
+            &-btn {
+                width: 100%;
             }
         }
     }
@@ -64,6 +97,16 @@
         border-radius: 100%;
         border: none;
         cursor: pointer;
+    }
+
+    &__icons {
+        display: grid;
+        grid-template-columns: repeat(4, 0.5fr);
+        gap: 44px;
+        padding: 53px;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
     }
 }
 
