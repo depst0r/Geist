@@ -4,10 +4,13 @@ I'm a frontend developer...
 ## 🛠 Skills
 Javascript, HTML, SCSS, Vite.
 
-## Vite
+## Installation
 
+Install my-project with npm
 
-
+```bash
+  npm init
+```
 ```bash
   npx vite
 ```
