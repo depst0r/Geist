@@ -1,3 +1,7 @@
+## 🚀 About Me
+I'm a frontend developer...
+
+
 ## Vite
 
 
