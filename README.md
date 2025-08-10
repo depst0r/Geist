@@ -5,7 +5,7 @@ I'm a frontend developer...
 
 ## 🛠 Tehnologies used in the project
 Javascript, HTML, SCSS, Vite.
-
+This project is completed - 85%
 
 ## Run Locally
 
