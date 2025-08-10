@@ -11,6 +11,15 @@
         background: $basic-onyx;
     }
 
+    .email,
+    .name,
+    .subject {
+        padding-bottom: 14px;
+        border-bottom: 1px solid $dark-white-100;
+        width: 100%;
+        margin-top: 16px;
+    }
+
     .form {
         display: flex;
         flex-direction: column;
@@ -47,6 +56,8 @@
         }
 
         &__main {
+            margin-top: 24px;
+
             &-text {
                 #textarea {
                     border-radius: 12px;
@@ -69,6 +80,10 @@
     input {
         background-color: transparent;
         border: none;
+
+        &:focus {
+            border: none;
+        }
 
         &::placeholder {
             font-weight: 400;
