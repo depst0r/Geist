@@ -11,7 +11,7 @@ Javascript, HTML, SCSS, Vite.
 Install my-project with npm
 
 ```bash
-  npm init
+  npm install
 ```
 ```bash
   npx vite
