@@ -1,6 +1,8 @@
 ## 🚀 About Me
 I'm a frontend developer...
 
+## 🛠 Skills
+Javascript, HTML, SCSS, Vite.
 
 ## Vite
 
